@@ -36,7 +36,7 @@ if [[ ! -d "$DOTFILES_DIR" ]]; then
   git clone --recursive ${DOTFILES_REPO} ${DOTFILES_DIR}
 fi
 
-if [-z "$(ls -A ${DOTFILES_DIR})"]; then
+if [ -z"$(ls -A ${DOTFILES_DIR})" ]; then
    mkdir -p "${DOTFILES_DIR}" && \
    git clone --recursive ${DOTFILES_REPO} ${DOTFILES_DIR}
 fi
