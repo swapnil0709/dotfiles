@@ -48,9 +48,6 @@ debian_apps=(
   'xsel'          # Copy paste access to the X clipboard
   'zoxide'        # Auto-learning navigation (better cd)
 
-  # Languages, compilers, runtimes, etc
-  'golang'
-
   # Security Utilities
   'clamav'        # Open source virus scanning suite
   'cryptsetup'    # Reading / writing encrypted volumes
