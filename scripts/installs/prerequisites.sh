@@ -17,6 +17,7 @@ core_packages=(
   'git' # Needed to fetch dotfiles
   'vim' # Needed to edit files
   'zsh' # Needed as bash is crap
+  'build-essential'
 )
 
 # Color variables
@@ -62,7 +63,7 @@ function multi_system_install () {
     install_arch $app # Arch Linux via Pacman
   elif ! [ -f "/etc/debian_version" ] && hash apt 2> /dev/null; then
     install_debian $app # Debian via apt-get
-  elif  ["$(uname -s)" = "Linux" ]; then
+  elif [ "$(uname -s)" = "Linux" ]; then
     install_debian $app # Debian via apt-get
   else
     echo -e "${YELLOW}Skipping ${app}, as couldn't detect system type ${RESET}"

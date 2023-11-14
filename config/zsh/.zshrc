@@ -56,7 +56,7 @@ if [[ -d $utils_dir ]]; then
 fi
 
 # Import P10k config for command prompt, run `p10k configure` or edit
-[[ ! -f ${zsh_dir}/.p10k.zsh ]] || source ${zsh_dir}/.p10k.zsh
+#[[ ! -f ${zsh_dir}/.p10k.zsh ]] || source ${zsh_dir}/.p10k.zsh
 
 # MacOS-specific services
 if [ "$(uname -s)" = "Darwin" ]; then

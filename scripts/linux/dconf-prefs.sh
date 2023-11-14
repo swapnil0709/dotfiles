@@ -131,7 +131,7 @@ apply_dconf () {
 
 # For the following dconf keys, apply settings in from the specified files
 apply_dconf '/org/gnome/calculator/' 'calculator'   # Apply calculator settings
-apply_dconf '/org/gnome/evolution/' 'evolution'     # Apply Evolution (mail client) settings
+#apply_dconf '/org/gnome/evolution/' 'evolution'     # Apply Evolution (mail client) settings
 apply_dconf '/org/gnome/gedit/preferences/' 'gedit' # Apply Gedit (text editor) settings
 apply_dconf '/org/gnome/gthumb/' 'gthumb'           # Apply gthumb (image editor) settings
 apply_dconf '/org/gnome/todo/' 'todo'               # Apply todo list app settings

@@ -49,13 +49,13 @@ debian_apps=(
   'zoxide'        # Auto-learning navigation (better cd)
 
   # Security Utilities
-  'clamav'        # Open source virus scanning suite
+  #'clamav'        # Open source virus scanning suite
   'cryptsetup'    # Reading / writing encrypted volumes
   'gnupg'         # PGP encryption, signing and verifying
-  'git-crypt'     # Transparent encryption for git repos
-  'lynis'         # Scan system for common security issues
-  'openssl'       # Cryptography and SSL/TLS Toolkit
-  'rkhunter'      # Search / detect potential root kits
+  #'git-crypt'     # Transparent encryption for git repos
+  #'lynis'         # Scan system for common security issues
+  #'openssl'       # Cryptography and SSL/TLS Toolkit
+  #'rkhunter'      # Search / detect potential root kits
 
   # Monitoring, management and stats
   'btop'          # Live system resource monitoring
