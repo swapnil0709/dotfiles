@@ -18,7 +18,7 @@ core_packages=(
   'vim' # Needed to edit files
   'zsh' # Needed as bash is crap
   'build-essential'
-  'nvim'
+  'neovim'
   'tmux'
 )
 
